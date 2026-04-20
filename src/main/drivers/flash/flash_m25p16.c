@@ -115,6 +115,9 @@ struct {
     // Winbond W25Q128
     // Datasheet: https://www.winbond.com/resource-files/w25q128fv%20rev.l%2008242015.pdf
     { 0xEF4018, 104, 50, 256, 256 },
+    // Fudan FM25Q128
+    // Datasheet: https://www.fmsh.com/nvm/FM25Q128_ds_eng.pdf
+    { 0xA14018, 104, 50, 256, 256 },
     // Winbond W25Q512
     // Datasheet: https://www.winbond.com/resource-files/W25Q512JV%20SPI%20RevB%2006252019%20KMS.pdf
     { 0xEF4020, 133, 50, 1024, 256 },
